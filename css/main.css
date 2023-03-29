@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+  --main-color: #0ef;
+  --transition: 0.4s;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #222;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+img {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+  box-shadow: 0 0 10px inset #333;
+  /* -webkit-border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2196F3;
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ================== */
+.navbar .navbar-nav .nav-item {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.navbar .navbar-nav .navbar-brand:hover {
+  color: var(--main-color);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--main-color);
+}
+
+/* .navbar .navbar-brand img {
+  width: 50px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+} */
+.btn {
+  /* border: 0; */
+  padding: 14px 30px;
+}
+
+.btn-one {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn-ico {
+  position: relative;
+  margin-top: 40px;
+  left: 50%;
+  background-color: black;
+  color: #fff;
+}
+
+@media(max-width:768px) {
+  .btn-ico {
+    left: 0;
+  }
+}
+
+.btn-brand {
+  color: #333;
+  background-color: var(--main-color);
+  font-size: 20px;
+}
+
+/* landing */
+.landing .container .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* landing */
+/* holder */
+
+
+/* holder */
+/* section2 */
+.section-2 .container .small {
+  font-size: 13px;
+  margin: 0 25px;
+}
+
+@media(max-width:767px) {
+  .section-2 .container {
+    text-align: center;
+  }
+
+  .true-mark {
+    gap: 10px;
+  }
+}
+
+.learn {
+  left: 0;
+}
+
+/* section2 */
+/* right */
+.holder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
+}
+
+@media(max-width:990px) {
+  .holder {
+    width: 100%;
+  }
+}
+
+.option {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 5px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+
+.holder .option:hover,
+.holder .button:hover {
+  background-color: #DFE5F6;
+  color: #000;
+}
+
+span.option-title {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option img,
+span.option-title img {
+  width: 15px;
+}
+
+.fonts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fonts * {
+  background-color: #F5F5F5;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  color: #000;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+
+.save-btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: #2641E0;
+  color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/* right */
+
+
+/* reservation */
+.contact h1 {
+  color: var(--main-color);
+}
+
+.contact form {
+  box-shadow: 0 0 5px var(--main-color);
+}
+
+/* reservation */
+/* footer */
+.footer h1 {
+  color: var(--main-color);
+}
+
+.footer .footer-link .footer-list li a {
+  color: #fff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.footer .footer-link .footer-list li a:hover {
+  color: var(--main-color);
+}
+
+.footer .gmail {
+  color: var(--main-color);
+}
+
+.footer .phone {
+  color: var(--main-color);
+}
+
+.footer .desgin {
+  color: var(--main-color);
+}
+
+.footer .end-footer .icon {
+  color: var(--main-color);
+}
+
+.footer .cloor {
+  color: var(--main-color);
+}
+
+/* footer */
